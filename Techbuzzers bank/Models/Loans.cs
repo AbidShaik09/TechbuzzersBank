@@ -6,24 +6,39 @@ namespace Techbuzzers_bank.Models
     public class Loans
     {
         [Key]
-        public String id {  get; set; }
-        
+        [StringLength(12)]
+        [RegularExpression("^[A-Z0-9]{12}$", ErrorMessage = "Loan ID must be a 12-characters")]
+        public string Id { get; set; }
+
+        [Required(ErrorMessage = "Account ID is required")]
+
         [ForeignKey(nameof(Account))]
-        public required String accountId { get; set; }
-        [Required]
-        public string type { get; set; } //Personal / Gold / Education
+        public string AccountId { get; set; }
 
-        public DateTime timestamp { get; set; }
-        [Required]
-        public float amount { get; set; }
-        [Required]
-        public int roi { get; set; }
-        [Required]
-        public int tenure { get; set; }
-        [Required]
-        public float due { get; set; }
+        [Required(ErrorMessage = "Loan type is required")]
+        public string Type { get; set; }
 
-        public List<Payables> payables { get; set; }
-        public String status { get; set; } = "Open";
+        [Required(ErrorMessage = "Timestamp is required")]
+        public DateTime Timestamp { get; set; }
+
+        [Required(ErrorMessage = "Loan amount is required")]
+        [Range(0.01, double.MaxValue, ErrorMessage = "Loan amount must be greater than zero")]
+        public float Amount { get; set; }
+
+        [Required(ErrorMessage = "Rate of interest is required")]
+        [Range(0.01, 100, ErrorMessage = "Rate of interest must be between 0.01 and 100")]
+        public int Roi { get; set; }
+
+        [Required(ErrorMessage = "Tenure is required")]
+        [Range(1, int.MaxValue, ErrorMessage = "Tenure must be at least 1")]
+        public int Tenure { get; set; }
+
+        [Required(ErrorMessage = "Due amount is required")]
+        [Range(0.01, double.MaxValue, ErrorMessage = "Due amount must be greater than zero")]
+        public float Due { get; set; }
+
+        public List<Payables> Payables { get; set; }
+
+        public string Status { get; set; } = "Open";
     }
 }
