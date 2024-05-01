@@ -1,0 +1,6 @@
+@Techbuzzers_bank_HostAddress = http://localhost:5007
+
+GET {{Techbuzzers_bank_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
