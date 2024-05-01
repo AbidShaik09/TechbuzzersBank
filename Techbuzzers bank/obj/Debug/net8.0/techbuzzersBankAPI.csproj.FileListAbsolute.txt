@@ -271,3 +271,4 @@ C:\Users\Knight\Documents\GitHub\TechbuzzersBank\Techbuzzers bank\obj\Debug\net8
 C:\Users\Knight\Documents\GitHub\TechbuzzersBank\Techbuzzers bank\obj\Debug\net8.0\techbuzzersBankAPI.pdb
 C:\Users\Knight\Documents\GitHub\TechbuzzersBank\Techbuzzers bank\obj\Debug\net8.0\techbuzzersBankAPI.genruntimeconfig.cache
 C:\Users\Knight\Documents\GitHub\TechbuzzersBank\Techbuzzers bank\obj\Debug\net8.0\ref\techbuzzersBankAPI.dll
+C:\Users\Knight\Documents\GitHub\TechbuzzersBank\Techbuzzers bank\bin\Debug\net8.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
