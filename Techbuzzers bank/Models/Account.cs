@@ -12,5 +12,6 @@ namespace Techbuzzers_bank.Models
         public String userId { get; set; }
         public float balance {  get; set; }
         List<Transactions> transactions { get; set; } = new List<Transactions>();
+        List<Loans> loans { get; set; } = new List<Loans>();
     }
 }
