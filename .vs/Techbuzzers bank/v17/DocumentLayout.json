@@ -1,0 +1,380 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Knight\\Documents\\GitHub\\TechbuzzersBank\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Knight\\Documents\\GitHub\\TechbuzzersBank\\Techbuzzers bank\\Migrations\\20240501101449_t0.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Techbuzzers bank\\Migrations\\20240501101449_t0.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4C1D873F-6686-4F43-83C7-8D9BF5F5884A}|Techbuzzers bank\\techbuzzersBankAPI.csproj|c:\\users\\knight\\documents\\github\\techbuzzersbank\\techbuzzers bank\\models\\userdetails.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4C1D873F-6686-4F43-83C7-8D9BF5F5884A}|Techbuzzers bank\\techbuzzersBankAPI.csproj|solutionrelative:techbuzzers bank\\models\\userdetails.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Knight\\Documents\\GitHub\\TechbuzzersBank\\Techbuzzers bank\\Migrations\\20240501101402_t2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Techbuzzers bank\\Migrations\\20240501101402_t2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4C1D873F-6686-4F43-83C7-8D9BF5F5884A}|Techbuzzers bank\\techbuzzersBankAPI.csproj|c:\\users\\knight\\documents\\github\\techbuzzersbank\\techbuzzers bank\\models\\account.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4C1D873F-6686-4F43-83C7-8D9BF5F5884A}|Techbuzzers bank\\techbuzzersBankAPI.csproj|solutionrelative:techbuzzers bank\\models\\account.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Knight\\Documents\\GitHub\\TechbuzzersBank\\Techbuzzers bank\\Migrations\\20240501101215_t1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Techbuzzers bank\\Migrations\\20240501101215_t1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Knight\\Documents\\GitHub\\TechbuzzersBank\\Techbuzzers bank\\Migrations\\20240501101109_t0.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Techbuzzers bank\\Migrations\\20240501101109_t0.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Knight\\Documents\\GitHub\\TechbuzzersBank\\Techbuzzers bank\\Migrations\\20240501100423_t8.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Techbuzzers bank\\Migrations\\20240501100423_t8.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4C1D873F-6686-4F43-83C7-8D9BF5F5884A}|Techbuzzers bank\\techbuzzersBankAPI.csproj|c:\\users\\knight\\documents\\github\\techbuzzersbank\\techbuzzers bank\\models\\transactions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4C1D873F-6686-4F43-83C7-8D9BF5F5884A}|Techbuzzers bank\\techbuzzersBankAPI.csproj|solutionrelative:techbuzzers bank\\models\\transactions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Knight\\Documents\\GitHub\\TechbuzzersBank\\Techbuzzers bank\\Migrations\\20240501100102_t7.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Techbuzzers bank\\Migrations\\20240501100102_t7.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Knight\\Documents\\GitHub\\TechbuzzersBank\\Techbuzzers bank\\Migrations\\20240501095901_t6.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Techbuzzers bank\\Migrations\\20240501095901_t6.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Knight\\Documents\\GitHub\\TechbuzzersBank\\Techbuzzers bank\\Migrations\\20240501095745_t5.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Techbuzzers bank\\Migrations\\20240501095745_t5.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Knight\\Documents\\GitHub\\TechbuzzersBank\\Techbuzzers bank\\Migrations\\20240501095448_t4.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Techbuzzers bank\\Migrations\\20240501095448_t4.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4C1D873F-6686-4F43-83C7-8D9BF5F5884A}|Techbuzzers bank\\techbuzzersBankAPI.csproj|c:\\users\\knight\\documents\\github\\techbuzzersbank\\techbuzzers bank\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4C1D873F-6686-4F43-83C7-8D9BF5F5884A}|Techbuzzers bank\\techbuzzersBankAPI.csproj|solutionrelative:techbuzzers bank\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4C1D873F-6686-4F43-83C7-8D9BF5F5884A}|Techbuzzers bank\\techbuzzersBankAPI.csproj|c:\\users\\knight\\documents\\github\\techbuzzersbank\\techbuzzers bank\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{4C1D873F-6686-4F43-83C7-8D9BF5F5884A}|Techbuzzers bank\\techbuzzersBankAPI.csproj|solutionrelative:techbuzzers bank\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4C1D873F-6686-4F43-83C7-8D9BF5F5884A}|Techbuzzers bank\\techbuzzersBankAPI.csproj|c:\\users\\knight\\documents\\github\\techbuzzersbank\\techbuzzers bank\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4C1D873F-6686-4F43-83C7-8D9BF5F5884A}|Techbuzzers bank\\techbuzzersBankAPI.csproj|solutionrelative:techbuzzers bank\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Aamir\\source\\repos\\Techbuzzers bank\\Techbuzzers bank\\Migrations\\20240430110209_t4.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Aamir\\source\\repos\\Techbuzzers bank\\Techbuzzers bank\\Migrations\\20240430105807_t3.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Aamir\\source\\repos\\Techbuzzers bank\\Techbuzzers bank\\Migrations\\20240430104649_t2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4C1D873F-6686-4F43-83C7-8D9BF5F5884A}|Techbuzzers bank\\techbuzzersBankAPI.csproj|c:\\users\\knight\\documents\\github\\techbuzzersbank\\techbuzzers bank\\techbuzzersbankapi.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{4C1D873F-6686-4F43-83C7-8D9BF5F5884A}|Techbuzzers bank\\techbuzzersBankAPI.csproj|solutionrelative:techbuzzers bank\\techbuzzersbankapi.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Aamir\\source\\repos\\Techbuzzers bank\\Techbuzzers bank\\Migrations\\20240430102927_t1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Aamir\\source\\repos\\Techbuzzers bank\\Techbuzzers bank\\Migrations\\20240430102129_t1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Aamir\\source\\repos\\Techbuzzers bank\\Techbuzzers bank\\Migrations\\20240430094026_t1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "20240501101449_t0.cs",
+              "DocumentMoniker": "C:\\Users\\Knight\\Documents\\GitHub\\TechbuzzersBank\\Techbuzzers bank\\Migrations\\20240501101449_t0.cs",
+              "RelativeDocumentMoniker": "Techbuzzers bank\\Migrations\\20240501101449_t0.cs",
+              "ToolTip": "C:\\Users\\Knight\\Documents\\GitHub\\TechbuzzersBank\\Techbuzzers bank\\Migrations\\20240501101449_t0.cs",
+              "RelativeToolTip": "Techbuzzers bank\\Migrations\\20240501101449_t0.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-01T10:14:49.482Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "20240501101402_t2.cs",
+              "DocumentMoniker": "C:\\Users\\Knight\\Documents\\GitHub\\TechbuzzersBank\\Techbuzzers bank\\Migrations\\20240501101402_t2.cs",
+              "RelativeDocumentMoniker": "Techbuzzers bank\\Migrations\\20240501101402_t2.cs",
+              "ToolTip": "C:\\Users\\Knight\\Documents\\GitHub\\TechbuzzersBank\\Techbuzzers bank\\Migrations\\20240501101402_t2.cs",
+              "RelativeToolTip": "Techbuzzers bank\\Migrations\\20240501101402_t2.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-01T10:14:02.663Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "20240501101215_t1.cs",
+              "DocumentMoniker": "C:\\Users\\Knight\\Documents\\GitHub\\TechbuzzersBank\\Techbuzzers bank\\Migrations\\20240501101215_t1.cs",
+              "RelativeDocumentMoniker": "Techbuzzers bank\\Migrations\\20240501101215_t1.cs",
+              "ToolTip": "C:\\Users\\Knight\\Documents\\GitHub\\TechbuzzersBank\\Techbuzzers bank\\Migrations\\20240501101215_t1.cs",
+              "RelativeToolTip": "Techbuzzers bank\\Migrations\\20240501101215_t1.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-01T10:12:15.59Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "20240501101109_t0.cs",
+              "DocumentMoniker": "C:\\Users\\Knight\\Documents\\GitHub\\TechbuzzersBank\\Techbuzzers bank\\Migrations\\20240501101109_t0.cs",
+              "RelativeDocumentMoniker": "Techbuzzers bank\\Migrations\\20240501101109_t0.cs",
+              "ToolTip": "C:\\Users\\Knight\\Documents\\GitHub\\TechbuzzersBank\\Techbuzzers bank\\Migrations\\20240501101109_t0.cs",
+              "RelativeToolTip": "Techbuzzers bank\\Migrations\\20240501101109_t0.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-01T10:11:09.831Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "20240501100423_t8.cs",
+              "DocumentMoniker": "C:\\Users\\Knight\\Documents\\GitHub\\TechbuzzersBank\\Techbuzzers bank\\Migrations\\20240501100423_t8.cs",
+              "RelativeDocumentMoniker": "Techbuzzers bank\\Migrations\\20240501100423_t8.cs",
+              "ToolTip": "C:\\Users\\Knight\\Documents\\GitHub\\TechbuzzersBank\\Techbuzzers bank\\Migrations\\20240501100423_t8.cs",
+              "RelativeToolTip": "Techbuzzers bank\\Migrations\\20240501100423_t8.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-01T10:04:23.221Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "UserDetails.cs",
+              "DocumentMoniker": "C:\\Users\\Knight\\Documents\\GitHub\\TechbuzzersBank\\Techbuzzers bank\\Models\\UserDetails.cs",
+              "RelativeDocumentMoniker": "Techbuzzers bank\\Models\\UserDetails.cs",
+              "ToolTip": "C:\\Users\\Knight\\Documents\\GitHub\\TechbuzzersBank\\Techbuzzers bank\\Models\\UserDetails.cs",
+              "RelativeToolTip": "Techbuzzers bank\\Models\\UserDetails.cs",
+              "ViewState": "AQIAABkAAAAAAAAAAAAkwCgAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-01T09:47:20.962Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Account.cs",
+              "DocumentMoniker": "C:\\Users\\Knight\\Documents\\GitHub\\TechbuzzersBank\\Techbuzzers bank\\Models\\Account.cs",
+              "RelativeDocumentMoniker": "Techbuzzers bank\\Models\\Account.cs",
+              "ToolTip": "C:\\Users\\Knight\\Documents\\GitHub\\TechbuzzersBank\\Techbuzzers bank\\Models\\Account.cs",
+              "RelativeToolTip": "Techbuzzers bank\\Models\\Account.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAABAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-01T09:47:20.957Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "20240501100102_t7.cs",
+              "DocumentMoniker": "C:\\Users\\Knight\\Documents\\GitHub\\TechbuzzersBank\\Techbuzzers bank\\Migrations\\20240501100102_t7.cs",
+              "RelativeDocumentMoniker": "Techbuzzers bank\\Migrations\\20240501100102_t7.cs",
+              "ToolTip": "C:\\Users\\Knight\\Documents\\GitHub\\TechbuzzersBank\\Techbuzzers bank\\Migrations\\20240501100102_t7.cs",
+              "RelativeToolTip": "Techbuzzers bank\\Migrations\\20240501100102_t7.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-01T10:01:03.062Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "20240501095901_t6.cs",
+              "DocumentMoniker": "C:\\Users\\Knight\\Documents\\GitHub\\TechbuzzersBank\\Techbuzzers bank\\Migrations\\20240501095901_t6.cs",
+              "RelativeDocumentMoniker": "Techbuzzers bank\\Migrations\\20240501095901_t6.cs",
+              "ToolTip": "C:\\Users\\Knight\\Documents\\GitHub\\TechbuzzersBank\\Techbuzzers bank\\Migrations\\20240501095901_t6.cs",
+              "RelativeToolTip": "Techbuzzers bank\\Migrations\\20240501095901_t6.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-01T09:59:02.009Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "20240501095745_t5.cs",
+              "DocumentMoniker": "C:\\Users\\Knight\\Documents\\GitHub\\TechbuzzersBank\\Techbuzzers bank\\Migrations\\20240501095745_t5.cs",
+              "RelativeDocumentMoniker": "Techbuzzers bank\\Migrations\\20240501095745_t5.cs",
+              "ToolTip": "C:\\Users\\Knight\\Documents\\GitHub\\TechbuzzersBank\\Techbuzzers bank\\Migrations\\20240501095745_t5.cs",
+              "RelativeToolTip": "Techbuzzers bank\\Migrations\\20240501095745_t5.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-01T09:57:45.442Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Transactions.cs",
+              "DocumentMoniker": "C:\\Users\\Knight\\Documents\\GitHub\\TechbuzzersBank\\Techbuzzers bank\\Models\\Transactions.cs",
+              "RelativeDocumentMoniker": "Techbuzzers bank\\Models\\Transactions.cs",
+              "ToolTip": "C:\\Users\\Knight\\Documents\\GitHub\\TechbuzzersBank\\Techbuzzers bank\\Models\\Transactions.cs",
+              "RelativeToolTip": "Techbuzzers bank\\Models\\Transactions.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAAA3AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-01T09:47:20.953Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "20240501095448_t4.cs",
+              "DocumentMoniker": "C:\\Users\\Knight\\Documents\\GitHub\\TechbuzzersBank\\Techbuzzers bank\\Migrations\\20240501095448_t4.cs",
+              "RelativeDocumentMoniker": "Techbuzzers bank\\Migrations\\20240501095448_t4.cs",
+              "ToolTip": "C:\\Users\\Knight\\Documents\\GitHub\\TechbuzzersBank\\Techbuzzers bank\\Migrations\\20240501095448_t4.cs",
+              "RelativeToolTip": "Techbuzzers bank\\Migrations\\20240501095448_t4.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-01T09:54:48.768Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\Knight\\Documents\\GitHub\\TechbuzzersBank\\Techbuzzers bank\\appsettings.json",
+              "RelativeDocumentMoniker": "Techbuzzers bank\\appsettings.json",
+              "ToolTip": "C:\\Users\\Knight\\Documents\\GitHub\\TechbuzzersBank\\Techbuzzers bank\\appsettings.json",
+              "RelativeToolTip": "Techbuzzers bank\\appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-05-01T09:47:20.928Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Knight\\Documents\\GitHub\\TechbuzzersBank\\Techbuzzers bank\\Program.cs",
+              "RelativeDocumentMoniker": "Techbuzzers bank\\Program.cs",
+              "ToolTip": "C:\\Users\\Knight\\Documents\\GitHub\\TechbuzzersBank\\Techbuzzers bank\\Program.cs",
+              "RelativeToolTip": "Techbuzzers bank\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-01T09:47:20.967Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "20240430110209_t4.cs",
+              "DocumentMoniker": "C:\\Users\\Aamir\\source\\repos\\Techbuzzers bank\\Techbuzzers bank\\Migrations\\20240430110209_t4.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\Aamir\\source\\repos\\Techbuzzers bank\\Techbuzzers bank\\Migrations\\20240430110209_t4.cs",
+              "ToolTip": "C:\\Users\\Aamir\\source\\repos\\Techbuzzers bank\\Techbuzzers bank\\Migrations\\20240430110209_t4.cs",
+              "RelativeToolTip": "..\\..\\..\\..\\Aamir\\source\\repos\\Techbuzzers bank\\Techbuzzers bank\\Migrations\\20240430110209_t4.cs",
+              "ViewState": "AQIAABAAAAAAAAAAAAAgwAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-30T11:02:09.585Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "20240430105807_t3.cs",
+              "DocumentMoniker": "C:\\Users\\Aamir\\source\\repos\\Techbuzzers bank\\Techbuzzers bank\\Migrations\\20240430105807_t3.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\Aamir\\source\\repos\\Techbuzzers bank\\Techbuzzers bank\\Migrations\\20240430105807_t3.cs",
+              "ToolTip": "C:\\Users\\Aamir\\source\\repos\\Techbuzzers bank\\Techbuzzers bank\\Migrations\\20240430105807_t3.cs",
+              "RelativeToolTip": "..\\..\\..\\..\\Aamir\\source\\repos\\Techbuzzers bank\\Techbuzzers bank\\Migrations\\20240430105807_t3.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-30T10:58:07.797Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "20240430104649_t2.cs",
+              "DocumentMoniker": "C:\\Users\\Aamir\\source\\repos\\Techbuzzers bank\\Techbuzzers bank\\Migrations\\20240430104649_t2.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\Aamir\\source\\repos\\Techbuzzers bank\\Techbuzzers bank\\Migrations\\20240430104649_t2.cs",
+              "ToolTip": "C:\\Users\\Aamir\\source\\repos\\Techbuzzers bank\\Techbuzzers bank\\Migrations\\20240430104649_t2.cs",
+              "RelativeToolTip": "..\\..\\..\\..\\Aamir\\source\\repos\\Techbuzzers bank\\Techbuzzers bank\\Migrations\\20240430104649_t2.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-30T10:46:49.545Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "ApplicationDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\Knight\\Documents\\GitHub\\TechbuzzersBank\\Techbuzzers bank\\Data\\ApplicationDbContext.cs",
+              "RelativeDocumentMoniker": "Techbuzzers bank\\Data\\ApplicationDbContext.cs",
+              "ToolTip": "C:\\Users\\Knight\\Documents\\GitHub\\TechbuzzersBank\\Techbuzzers bank\\Data\\ApplicationDbContext.cs",
+              "RelativeToolTip": "Techbuzzers bank\\Data\\ApplicationDbContext.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-01T09:47:20.983Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "20240430102927_t1.cs",
+              "DocumentMoniker": "C:\\Users\\Aamir\\source\\repos\\Techbuzzers bank\\Techbuzzers bank\\Migrations\\20240430102927_t1.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\Aamir\\source\\repos\\Techbuzzers bank\\Techbuzzers bank\\Migrations\\20240430102927_t1.cs",
+              "ToolTip": "C:\\Users\\Aamir\\source\\repos\\Techbuzzers bank\\Techbuzzers bank\\Migrations\\20240430102927_t1.cs",
+              "RelativeToolTip": "..\\..\\..\\..\\Aamir\\source\\repos\\Techbuzzers bank\\Techbuzzers bank\\Migrations\\20240430102927_t1.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-30T10:29:27.577Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "20240430102129_t1.cs",
+              "DocumentMoniker": "C:\\Users\\Aamir\\source\\repos\\Techbuzzers bank\\Techbuzzers bank\\Migrations\\20240430102129_t1.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\Aamir\\source\\repos\\Techbuzzers bank\\Techbuzzers bank\\Migrations\\20240430102129_t1.cs",
+              "ToolTip": "C:\\Users\\Aamir\\source\\repos\\Techbuzzers bank\\Techbuzzers bank\\Migrations\\20240430102129_t1.cs",
+              "RelativeToolTip": "..\\..\\..\\..\\Aamir\\source\\repos\\Techbuzzers bank\\Techbuzzers bank\\Migrations\\20240430102129_t1.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-30T10:21:29.664Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "techbuzzersBankAPI.csproj",
+              "DocumentMoniker": "C:\\Users\\Knight\\Documents\\GitHub\\TechbuzzersBank\\Techbuzzers bank\\techbuzzersBankAPI.csproj",
+              "RelativeDocumentMoniker": "Techbuzzers bank\\techbuzzersBankAPI.csproj",
+              "ToolTip": "C:\\Users\\Knight\\Documents\\GitHub\\TechbuzzersBank\\Techbuzzers bank\\techbuzzersBankAPI.csproj",
+              "RelativeToolTip": "Techbuzzers bank\\techbuzzersBankAPI.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAhAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-05-01T09:47:21Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "20240430094026_t1.cs",
+              "DocumentMoniker": "C:\\Users\\Aamir\\source\\repos\\Techbuzzers bank\\Techbuzzers bank\\Migrations\\20240430094026_t1.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\Aamir\\source\\repos\\Techbuzzers bank\\Techbuzzers bank\\Migrations\\20240430094026_t1.cs",
+              "ToolTip": "C:\\Users\\Aamir\\source\\repos\\Techbuzzers bank\\Techbuzzers bank\\Migrations\\20240430094026_t1.cs",
+              "RelativeToolTip": "..\\..\\..\\..\\Aamir\\source\\repos\\Techbuzzers bank\\Techbuzzers bank\\Migrations\\20240430094026_t1.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-30T09:40:26.67Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

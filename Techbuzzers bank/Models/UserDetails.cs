@@ -1,6 +1,8 @@
 ﻿using Microsoft.AspNetCore.Identity;
 using System.ComponentModel.DataAnnotations;
+using System.ComponentModel.DataAnnotations.Schema;
 using System.Security.Principal;
+using System.Text.Json.Serialization;
 using System.Transactions;
 
 namespace Techbuzzers_bank.Models
@@ -8,7 +10,7 @@ namespace Techbuzzers_bank.Models
     public class UserDetails
     {
         [Key]
-        public int id { get; set; }
+        public String id { get; set; }
         [Required]
         public String firstName { get; set; }
         [Required]
@@ -17,17 +19,22 @@ namespace Techbuzzers_bank.Models
         public long phoneNumber {  get; set; }
         [Required]
         public string email { get; set; }
+
+
+
         [Required]
-        public string password { get; set; }
-        [Required]
-        public int age { get; set; }
+        public int age { get; set; } //calculate from DOB
         [Required]
         public DateTime dob {  get; set; }
         [Required]
         public String address {  get; set; }
         
-        public Account account {  get; set; } 
-        
-        List<Transactions> transactions { get; set; } = new List<Transactions>();
+
+        [ForeignKey(nameof(Account))]
+        public String accountId { get; set; }
+        [Required]
+        public int pin { get; set; }
+
+
     }
 }

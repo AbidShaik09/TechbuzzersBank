@@ -6,17 +6,17 @@ namespace Techbuzzers_bank.Models
     public class Transactions
     {
         [Key]
-        public int Id { get; set; }
+        public string id { get; set; }
         [Required]
-        [ForeignKey("UserDetails")]
-        public int senderId { get; set; }
+        [ForeignKey ( nameof(UserDetails))]
+        public int debitId { get; set; }
         [Required]
-        [ForeignKey("UserDetails")]
-        public int receiverId { get; set; }
+        [ForeignKey(nameof(UserDetails))]
+        public int creditId { get; set; }
         [Required]
         public float amount {  get; set; }
         [Required]
-        public DateTime dateTime { get; set; }
+        public DateTime timestamp { get; set; }
         
         public string status { get; set; } = "Pending";
     }

@@ -6,14 +6,11 @@ namespace Techbuzzers_bank.Models
     public class Account
     {
         [Key]
-        public int accountId { get; set; }
-        public string accountHolderName { get; set; }
-        public Account(String accountHolderName)
-        {
-            this.accountHolderName= accountHolderName;
+        public string id { get; set; }
 
-        }
         [ForeignKey("UsserDetails")]
-        public virtual UserDetails UserDetails { get; set; }    
+        public String userId { get; set; }
+        public float balance {  get; set; }
+        List<Transactions> transactions { get; set; } = new List<Transactions>();
     }
 }
