@@ -6,12 +6,12 @@ namespace Techbuzzers_bank.Models
     public class Payables
     {
         [Key]
-        public int Id { get; set; }
+        public long Id { get; set; }
 
         
 
         [ForeignKey(nameof(Loans))]
-        public string LoanId { get; set; }
+        public long LoanId { get; set; }
 
 
         [Required(ErrorMessage = "Month is required")]

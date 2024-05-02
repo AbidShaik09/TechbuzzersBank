@@ -5,12 +5,12 @@ namespace Techbuzzers_bank.Interface
     public interface IUsers
     {
         public List<UserDetails> GetAllUserDetails();
-        public UserDetails GetUserDetails(string id);
+        public UserDetails GetUserDetails(long id);
         public void AddUser(UserDetails userDetails);
 
         public UserDetails GetUser(long PhoneNumber, int Pin);
         public void UpdateUser(UserDetails userDetails);
-        public UserDetails DeleteUser(string id);
-        public bool CheckUser(string id);
+        public UserDetails DeleteUser(long id);
+        public bool CheckUser(long id);
     }
 }

@@ -24,7 +24,7 @@ namespace Techbuzzers_bank.Repository
             }
         }
 
-        public UserDetails GetUserDetails(string id)
+        public UserDetails GetUserDetails(long id)
         {
             try
             {
@@ -70,7 +70,7 @@ namespace Techbuzzers_bank.Repository
             }
         }
 
-        public UserDetails DeleteUser(string id)
+        public UserDetails DeleteUser(long id)
         {
             try{
                 UserDetails? user = _db.userDetails.Find(id);
@@ -91,7 +91,7 @@ namespace Techbuzzers_bank.Repository
             }
         }
 
-        public bool CheckUser(string id)
+        public bool CheckUser(long id)
         {
             return _db.userDetails.Any(e=>e.Id == id);
         }

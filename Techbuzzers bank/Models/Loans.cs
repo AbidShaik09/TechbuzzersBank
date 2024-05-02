@@ -6,14 +6,13 @@ namespace Techbuzzers_bank.Models
     public class Loans
     {
         [Key]
-        [StringLength(12)]
-        [RegularExpression("^[A-Z0-9]{12}$", ErrorMessage = "Loan ID must be a 12-characters")]
-        public string Id { get; set; }
+      
+        public long Id { get; set; }
 
         [Required(ErrorMessage = "Account ID is required")]
 
         [ForeignKey(nameof(Account))]
-        public string AccountId { get; set; }
+        public long AccountId { get; set; }
 
         [Required(ErrorMessage = "Loan type is required")]
         public string Type { get; set; }
@@ -37,7 +36,7 @@ namespace Techbuzzers_bank.Models
         [Range(0.01, double.MaxValue, ErrorMessage = "Due amount must be greater than zero")]
         public float Due { get; set; }
 
-        public List<Payables> Payables { get; set; }
+        public List<long> Payables { get; set; } = new List<long>();
 
         public string Status { get; set; } = "Open";
     }
