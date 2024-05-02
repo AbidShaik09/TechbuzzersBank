@@ -3,6 +3,7 @@ using System;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 using Techbuzzers_bank.Data;
 
@@ -11,9 +12,11 @@ using Techbuzzers_bank.Data;
 namespace Techbuzzers_bank.Migrations
 {
     [DbContext(typeof(ApplicationDbContext))]
-    partial class ApplicationDbContextModelSnapshot : ModelSnapshot
+    [Migration("20240502070028_P2")]
+    partial class P2
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        /// <inheritdoc />
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
@@ -183,11 +186,13 @@ namespace Techbuzzers_bank.Migrations
                     b.Property<int>("Pin")
                         .HasColumnType("int");
 
-                    b.Property<string>("accounts")
+                    b.Property<string>("accountId")
                         .IsRequired()
-                        .HasColumnType("nvarchar(max)");
+                        .HasColumnType("nvarchar(12)");
 
                     b.HasKey("Id");
+
+                    b.HasIndex("accountId");
 
                     b.ToTable("userDetails");
                 });
@@ -213,6 +218,17 @@ namespace Techbuzzers_bank.Migrations
                     b.HasOne("Techbuzzers_bank.Models.Account", null)
                         .WithMany("Transactions")
                         .HasForeignKey("AccountId");
+                });
+
+            modelBuilder.Entity("Techbuzzers_bank.Models.UserDetails", b =>
+                {
+                    b.HasOne("Techbuzzers_bank.Models.Account", "account")
+                        .WithMany()
+                        .HasForeignKey("accountId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("account");
                 });
 
             modelBuilder.Entity("Techbuzzers_bank.Models.Account", b =>

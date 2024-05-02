@@ -2,7 +2,7 @@
   {
     "ContainingType": "Techbuzzers_bank.Controllers.WeatherForecastController",
     "Method": "Get",
-    "RelativePath": "WeatherForecast",
+    "RelativePath": "api/WeatherForecast",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
@@ -18,5 +18,37 @@
         "StatusCode": 200
       }
     ]
+  },
+  {
+    "ContainingType": "Techbuzzers_bank.Controllers.AuthController",
+    "Method": "signIn",
+    "RelativePath": "Auth/login",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "userDetails",
+        "Type": "Techbuzzers_bank.Controllers.UserCred",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Techbuzzers_bank.Controllers.AuthController",
+    "Method": "signUp",
+    "RelativePath": "signup",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "userDetails",
+        "Type": "Techbuzzers_bank.Models.UserDetails",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
   }
 ]
