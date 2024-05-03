@@ -12,7 +12,7 @@ namespace Techbuzzers_bank.Models
 
         [Key]
         
-        public long Id { get; set; }
+        public string Id { get; set; }
 
         [Required(ErrorMessage = "First name is required")]
         public string FirstName { get; set; }
@@ -36,7 +36,7 @@ namespace Techbuzzers_bank.Models
 
 
         [Required(ErrorMessage = "PAN card number is required")]
-        public long PANNumber { get; set; }
+        public string PANNumber { get; set; }
 
         [Required(ErrorMessage = "Gender is required")]
         public string Gender { get; set; }
@@ -51,7 +51,7 @@ namespace Techbuzzers_bank.Models
 
 
         
-        public  List<long> accounts { get; set; }= new List<long> ();
+        public  List<string> accounts { get; set; }= new List<string> ();
 
         [Required(ErrorMessage = "PIN is required")]
         [Range(1000, 9999, ErrorMessage = "PIN must be a 4-digit number")]

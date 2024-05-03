@@ -7,12 +7,12 @@ namespace Techbuzzers_bank.Models
     {
         [Key]
       
-        public long Id { get; set; }
+        public string Id { get; set; }
 
         [Required(ErrorMessage = "Account ID is required")]
 
         [ForeignKey(nameof(Account))]
-        public long AccountId { get; set; }
+        public string AccountId { get; set; }
 
         [Required(ErrorMessage = "Loan type is required")]
         public string Type { get; set; }

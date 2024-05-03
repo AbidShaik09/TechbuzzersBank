@@ -17,51 +17,56 @@ namespace Techbuzzers_bank.Controllers
     {
         public IConfiguration _config;
         private readonly IUsers _user;
+        private readonly IAccount _account;
         private readonly ApplicationDbContext _db;
         public AuthController( IConfiguration config, ApplicationDbContext db) { 
             _db= db;
             _config = config;
             _user= new UserRepository(db);
+            _account= new AccountRepository(db);
         }
 
 
         [HttpPost("/signup")]
-        public async Task<IActionResult> signUp(UserDetails userDetails)
+        public async Task<IActionResult> signUp([FromBody]UserDetails userDetails)
         {
 
             if (userDetails == null)
             {
                 return BadRequest("Userdetails not recieved");
             }
-            var dbuser = _db.userDetails.FirstOrDefault(e => e.PhoneNumber == userDetails.PhoneNumber || e.Email == userDetails.Email);
+            var dbuser = _db.userDetails.FirstOrDefault(e => e.PhoneNumber == userDetails.PhoneNumber || e.Email == userDetails.Email || e.AdhaarNumber == userDetails.AdhaarNumber || e.PANNumber.Equals(userDetails.PANNumber));
             if (dbuser != null)
             {
                 if(dbuser.Email == userDetails.Email)
                 {
                     return BadRequest("Email is already registered");
                 }
-                else
+                else if (dbuser.Email == userDetails.Email)
                 {
                     return BadRequest("Phone number is already registered");
                 }
-               
+                else if (dbuser.AdhaarNumber == userDetails.AdhaarNumber)
+                {
+                    return BadRequest("Adhaar number is already registered");
+                }
+                else {
+                    return BadRequest("PAN number is already registered");
+                }
+
             }
             else
             {
-                Account a = new Account();
-                a.UserId = userDetails.Id;
-                a.Balance = 5000.00f;
-                _db.account.Add(a);
-                _db.SaveChanges();
-                Account acc = _db.account.FirstOrDefault( e => e.UserId == userDetails.Id);
-                userDetails.accounts.Add(acc.Id);
-
+                
+               
                 _user.AddUser(userDetails);
+                Account acc = _account.CreateNewAccount(userDetails.Id, 5000,"DefaultAccount");
+                _user.UpdateUser(userDetails);
                 return Ok();
             }
         }
 
-        [HttpPost("login")]
+        [HttpPost("/signin")]
         public async Task<IActionResult> signIn(UserCred userDetails)
         {
             if (userDetails != null && userDetails.PhoneNumber != null && userDetails.Pin!= null)
@@ -90,7 +95,7 @@ namespace Techbuzzers_bank.Controllers
                         expires: DateTime.UtcNow.AddDays(10),
                         signingCredentials: signIn);
                     SigninResponse response = new SigninResponse();
-                    response.message = "signin succes";
+                    response.message = "sign-in success";
                     response.token = new JwtSecurityTokenHandler().WriteToken(token);
                     return Ok(response);
                 }

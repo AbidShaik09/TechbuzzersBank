@@ -7,9 +7,11 @@ namespace Techbuzzers_bank.Repository
     public class UserRepository:IUsers
     {
         readonly ApplicationDbContext _db ;
+        private AccountRepository _account;
         public UserRepository(ApplicationDbContext db)
         {
             _db = db;
+            _account= new AccountRepository(db);
         }   
 
         public List<UserDetails> GetAllUserDetails()
@@ -24,7 +26,7 @@ namespace Techbuzzers_bank.Repository
             }
         }
 
-        public UserDetails GetUserDetails(long id)
+        public UserDetails GetUserDetails(string id)
         {
             try
             {
@@ -44,7 +46,7 @@ namespace Techbuzzers_bank.Repository
         {
             try
             {
-
+                user.Id ="USR"+ GenerateUniqueUserId();
                 _db.userDetails.Add(user);
                 _db.SaveChanges();
 
@@ -70,7 +72,7 @@ namespace Techbuzzers_bank.Repository
             }
         }
 
-        public UserDetails DeleteUser(long id)
+        public UserDetails DeleteUser(string id)
         {
             try{
                 UserDetails? user = _db.userDetails.Find(id);
@@ -80,6 +82,11 @@ namespace Techbuzzers_bank.Repository
                 }
                 else
                 {
+                    foreach (var accountId in user.accounts)
+                    {
+                        _account.DeleteAccount(accountId);
+                        user.accounts.Remove(accountId);
+                    }
                     _db.userDetails.Remove(user);
                     _db.SaveChanges();
                     return user;
@@ -91,7 +98,7 @@ namespace Techbuzzers_bank.Repository
             }
         }
 
-        public bool CheckUser(long id)
+        public bool CheckUser(string id)
         {
             return _db.userDetails.Any(e=>e.Id == id);
         }
@@ -106,6 +113,31 @@ namespace Techbuzzers_bank.Repository
             {
                 return user;
             }
+        }
+
+        public List<Account> GetAllUserAccounts(string userId)
+        {
+            List<Account> accounts = new List<Account>();
+            UserDetails userDetails = GetUserDetails(userId);
+            foreach (string accountId in userDetails.accounts)
+            {
+                accounts.Add(_account.GetAccount(accountId));
+
+            }
+            return accounts;
+        }
+
+        private long GenerateUniqueUserId()
+        {
+            Random r = new Random();
+            long id;
+            do
+            {
+                id = r.Next(10000000, 99999999);
+
+            } while (CheckUser("USR"+id));
+            return id;
+
         }
     }
 }

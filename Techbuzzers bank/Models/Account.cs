@@ -7,19 +7,21 @@ namespace Techbuzzers_bank.Models
     {
         [Key]
        
-        public long Id { get; set; }
+        public string Id { get; set; }
+        [Required]
+        public string accountName { get; set; }
 
 
         [ForeignKey(nameof(UserDetails))]
-        public long UserId { get; set; }
+        public string UserId { get; set; }
 
 
         [Required(ErrorMessage = "Balance is required")]
         [Range(0, double.MaxValue, ErrorMessage = "Balance must be a non-negative number")]
         public float Balance { get; set; }
 
-        public List<long> Transactions { get; set; } = new List<long>();
+        public List<string> Transactions { get; set; } = new List<string>();
 
-        public List<long> Loans { get; set; } = new List<long>();
+        public List<string> Loans { get; set; } = new List<string>();
     }
 }

@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("techbuzzersBankAPI")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Release")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+e730ad70f8be41ae38e75d9448eb5854d49cbd76")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+b3890aba413e020ea9d58435e5bdf20844645a1c")]
 [assembly: System.Reflection.AssemblyProductAttribute("techbuzzersBankAPI")]
 [assembly: System.Reflection.AssemblyTitleAttribute("techbuzzersBankAPI")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

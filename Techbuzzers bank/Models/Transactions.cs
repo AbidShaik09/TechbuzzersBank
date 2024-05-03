@@ -7,7 +7,7 @@ namespace Techbuzzers_bank.Models
     {
         [Key]
        
-        public long Id { get; set; }
+        public string Id { get; set; }
 
         [Required(ErrorMessage = "Timestamp is required")]
         public DateTime Timestamp { get; set; }

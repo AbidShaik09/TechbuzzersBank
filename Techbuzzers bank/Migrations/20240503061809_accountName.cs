@@ -5,24 +5,24 @@
 namespace Techbuzzers_bank.Migrations
 {
     /// <inheritdoc />
-    public partial class m2 : Migration
+    public partial class accountName : Migration
     {
         /// <inheritdoc />
         protected override void Up(MigrationBuilder migrationBuilder)
         {
-            migrationBuilder.AddColumn<int>(
-                name: "accountPin",
+            migrationBuilder.AddColumn<string>(
+                name: "accountName",
                 table: "account",
-                type: "int",
+                type: "nvarchar(max)",
                 nullable: false,
-                defaultValue: 0);
+                defaultValue: "");
         }
 
         /// <inheritdoc />
         protected override void Down(MigrationBuilder migrationBuilder)
         {
             migrationBuilder.DropColumn(
-                name: "accountPin",
+                name: "accountName",
                 table: "account");
         }
     }

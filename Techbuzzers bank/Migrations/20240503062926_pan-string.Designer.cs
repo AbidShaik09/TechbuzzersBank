@@ -12,8 +12,8 @@ using Techbuzzers_bank.Data;
 namespace Techbuzzers_bank.Migrations
 {
     [DbContext(typeof(ApplicationDbContext))]
-    [Migration("20240502182028_m1")]
-    partial class m1
+    [Migration("20240503062926_pan-string")]
+    partial class panstring
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -27,11 +27,8 @@ namespace Techbuzzers_bank.Migrations
 
             modelBuilder.Entity("Techbuzzers_bank.Models.Account", b =>
                 {
-                    b.Property<long>("Id")
-                        .ValueGeneratedOnAdd()
-                        .HasColumnType("bigint");
-
-                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<long>("Id"));
+                    b.Property<string>("Id")
+                        .HasColumnType("nvarchar(450)");
 
                     b.Property<float>("Balance")
                         .HasColumnType("real");
@@ -44,8 +41,13 @@ namespace Techbuzzers_bank.Migrations
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<long>("UserId")
-                        .HasColumnType("bigint");
+                    b.Property<string>("UserId")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("accountName")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
 
                     b.HasKey("Id");
 
@@ -54,14 +56,12 @@ namespace Techbuzzers_bank.Migrations
 
             modelBuilder.Entity("Techbuzzers_bank.Models.Loans", b =>
                 {
-                    b.Property<long>("Id")
-                        .ValueGeneratedOnAdd()
-                        .HasColumnType("bigint");
+                    b.Property<string>("Id")
+                        .HasColumnType("nvarchar(450)");
 
-                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<long>("Id"));
-
-                    b.Property<long>("AccountId")
-                        .HasColumnType("bigint");
+                    b.Property<string>("AccountId")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
 
                     b.Property<float>("Amount")
                         .HasColumnType("real");
@@ -123,11 +123,8 @@ namespace Techbuzzers_bank.Migrations
 
             modelBuilder.Entity("Techbuzzers_bank.Models.Transactions", b =>
                 {
-                    b.Property<long>("Id")
-                        .ValueGeneratedOnAdd()
-                        .HasColumnType("bigint");
-
-                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<long>("Id"));
+                    b.Property<string>("Id")
+                        .HasColumnType("nvarchar(450)");
 
                     b.Property<float>("Amount")
                         .HasColumnType("real");
@@ -152,18 +149,15 @@ namespace Techbuzzers_bank.Migrations
 
             modelBuilder.Entity("Techbuzzers_bank.Models.UserDetails", b =>
                 {
-                    b.Property<long>("Id")
-                        .ValueGeneratedOnAdd()
-                        .HasColumnType("bigint");
-
-                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<long>("Id"));
+                    b.Property<string>("Id")
+                        .HasColumnType("nvarchar(450)");
 
                     b.Property<string>("Address")
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<int>("Age")
-                        .HasColumnType("int");
+                    b.Property<long>("AdhaarNumber")
+                        .HasColumnType("bigint");
 
                     b.Property<DateTime>("Dob")
                         .HasColumnType("datetime2");
@@ -172,11 +166,23 @@ namespace Techbuzzers_bank.Migrations
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
+                    b.Property<string>("FatherName")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
                     b.Property<string>("FirstName")
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
+                    b.Property<string>("Gender")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
                     b.Property<string>("LastName")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("PANNumber")
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 

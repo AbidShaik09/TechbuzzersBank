@@ -6,7 +6,7 @@ using Microsoft.EntityFrameworkCore.Migrations;
 namespace Techbuzzers_bank.Migrations
 {
     /// <inheritdoc />
-    public partial class m : Migration
+    public partial class StringKeys : Migration
     {
         /// <inheritdoc />
         protected override void Up(MigrationBuilder migrationBuilder)
@@ -15,9 +15,8 @@ namespace Techbuzzers_bank.Migrations
                 name: "account",
                 columns: table => new
                 {
-                    Id = table.Column<long>(type: "bigint", maxLength: 12, nullable: false)
-                        .Annotation("SqlServer:Identity", "1, 1"),
-                    UserId = table.Column<long>(type: "bigint", nullable: false),
+                    Id = table.Column<string>(type: "nvarchar(450)", nullable: false),
+                    UserId = table.Column<string>(type: "nvarchar(max)", nullable: false),
                     Balance = table.Column<float>(type: "real", nullable: false),
                     Transactions = table.Column<string>(type: "nvarchar(max)", nullable: false),
                     Loans = table.Column<string>(type: "nvarchar(max)", nullable: false)
@@ -31,9 +30,8 @@ namespace Techbuzzers_bank.Migrations
                 name: "loans",
                 columns: table => new
                 {
-                    Id = table.Column<long>(type: "bigint", maxLength: 12, nullable: false)
-                        .Annotation("SqlServer:Identity", "1, 1"),
-                    AccountId = table.Column<long>(type: "bigint", nullable: false),
+                    Id = table.Column<string>(type: "nvarchar(450)", nullable: false),
+                    AccountId = table.Column<string>(type: "nvarchar(max)", nullable: false),
                     Type = table.Column<string>(type: "nvarchar(max)", nullable: false),
                     Timestamp = table.Column<DateTime>(type: "datetime2", nullable: false),
                     Amount = table.Column<float>(type: "real", nullable: false),
@@ -68,8 +66,7 @@ namespace Techbuzzers_bank.Migrations
                 name: "transactions",
                 columns: table => new
                 {
-                    Id = table.Column<long>(type: "bigint", maxLength: 12, nullable: false)
-                        .Annotation("SqlServer:Identity", "1, 1"),
+                    Id = table.Column<string>(type: "nvarchar(450)", nullable: false),
                     Timestamp = table.Column<DateTime>(type: "datetime2", nullable: false),
                     Amount = table.Column<float>(type: "real", nullable: false),
                     DebitId = table.Column<long>(type: "bigint", nullable: false),
@@ -85,13 +82,15 @@ namespace Techbuzzers_bank.Migrations
                 name: "userDetails",
                 columns: table => new
                 {
-                    Id = table.Column<long>(type: "bigint", maxLength: 12, nullable: false)
-                        .Annotation("SqlServer:Identity", "1, 1"),
+                    Id = table.Column<string>(type: "nvarchar(450)", nullable: false),
                     FirstName = table.Column<string>(type: "nvarchar(max)", nullable: false),
                     LastName = table.Column<string>(type: "nvarchar(max)", nullable: false),
                     PhoneNumber = table.Column<long>(type: "bigint", nullable: false),
                     Email = table.Column<string>(type: "nvarchar(max)", nullable: false),
-                    Age = table.Column<int>(type: "int", nullable: false),
+                    FatherName = table.Column<string>(type: "nvarchar(max)", nullable: false),
+                    AdhaarNumber = table.Column<long>(type: "bigint", nullable: false),
+                    PANNumber = table.Column<long>(type: "bigint", nullable: false),
+                    Gender = table.Column<string>(type: "nvarchar(max)", nullable: false),
                     Dob = table.Column<DateTime>(type: "datetime2", nullable: false),
                     Address = table.Column<string>(type: "nvarchar(max)", nullable: false),
                     accounts = table.Column<string>(type: "nvarchar(max)", nullable: false),

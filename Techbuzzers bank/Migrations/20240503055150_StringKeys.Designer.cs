@@ -12,8 +12,8 @@ using Techbuzzers_bank.Data;
 namespace Techbuzzers_bank.Migrations
 {
     [DbContext(typeof(ApplicationDbContext))]
-    [Migration("20240502184333_m4")]
-    partial class m4
+    [Migration("20240503055150_StringKeys")]
+    partial class StringKeys
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -27,11 +27,8 @@ namespace Techbuzzers_bank.Migrations
 
             modelBuilder.Entity("Techbuzzers_bank.Models.Account", b =>
                 {
-                    b.Property<long>("Id")
-                        .ValueGeneratedOnAdd()
-                        .HasColumnType("bigint");
-
-                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<long>("Id"));
+                    b.Property<string>("Id")
+                        .HasColumnType("nvarchar(450)");
 
                     b.Property<float>("Balance")
                         .HasColumnType("real");
@@ -44,8 +41,9 @@ namespace Techbuzzers_bank.Migrations
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<long>("UserId")
-                        .HasColumnType("bigint");
+                    b.Property<string>("UserId")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
 
                     b.HasKey("Id");
 
@@ -54,14 +52,12 @@ namespace Techbuzzers_bank.Migrations
 
             modelBuilder.Entity("Techbuzzers_bank.Models.Loans", b =>
                 {
-                    b.Property<long>("Id")
-                        .ValueGeneratedOnAdd()
-                        .HasColumnType("bigint");
+                    b.Property<string>("Id")
+                        .HasColumnType("nvarchar(450)");
 
-                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<long>("Id"));
-
-                    b.Property<long>("AccountId")
-                        .HasColumnType("bigint");
+                    b.Property<string>("AccountId")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
 
                     b.Property<float>("Amount")
                         .HasColumnType("real");
@@ -123,11 +119,8 @@ namespace Techbuzzers_bank.Migrations
 
             modelBuilder.Entity("Techbuzzers_bank.Models.Transactions", b =>
                 {
-                    b.Property<long>("Id")
-                        .ValueGeneratedOnAdd()
-                        .HasColumnType("bigint");
-
-                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<long>("Id"));
+                    b.Property<string>("Id")
+                        .HasColumnType("nvarchar(450)");
 
                     b.Property<float>("Amount")
                         .HasColumnType("real");
@@ -152,11 +145,8 @@ namespace Techbuzzers_bank.Migrations
 
             modelBuilder.Entity("Techbuzzers_bank.Models.UserDetails", b =>
                 {
-                    b.Property<long>("Id")
-                        .ValueGeneratedOnAdd()
-                        .HasColumnType("bigint");
-
-                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<long>("Id"));
+                    b.Property<string>("Id")
+                        .HasColumnType("nvarchar(450)");
 
                     b.Property<string>("Address")
                         .IsRequired()
